@@ -1,0 +1,426 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --orang: #F48120;
+  --blue: #2E3191;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+@font-face {
+  font-family: h;
+  src: url(../public/font/H.ttf);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: h;
+}
+
+.whatsapp {
+  background-color: var(--orang);
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  padding: 15px;
+  font-size: 50px;
+  border-radius: 50px;
+  color: var(--white);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  justify-content: center;
+}
+
+@media (max-width:500px) {
+  .topimg {
+    width: 150px;
+    margin-top: 10px;
+  }
+}
+
+.navbar {
+  .btn {
+    background-color: var(--orang);
+    color: var(--white);
+  }
+}
+
+.nav .link {
+  background-color: var(--orang);
+  color: var(--white);
+  border-radius: 5px;
+  margin: 10px 0px;
+  text-decoration: none;
+  width: 90px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offcanvas {
+  h5 {
+    color: var(--orang);
+  }
+}
+
+.nav-link.active {
+  border-bottom: 2px solid var(--orang);
+  border-top: 2px solid var(--orang);
+  font-weight: bold;
+  color: var(--orang) !important;
+}
+
+.nav-link {
+  padding-bottom: 5px !important;
+  margin: 0 10px;
+}
+
+.home1 {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("https://ik.imagekit.io/j9af7werr/main?updatedAt=1773472584553");
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+  background-position: end;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    color: var(--orang);
+    font-family: h;
+  }
+
+  .link {
+    background-color: var(--orang);
+    text-decoration: none;
+    padding: 10px;
+    color: var(--white);
+    border-radius: 5px;
+  }
+}
+
+@media (max-width:500px) {
+  .home1 {
+    height: auto;
+    padding: 50px 0px;
+  }
+}
+
+.Destinations {
+  h1 {
+    color: var(--orang);
+  }
+}
+
+.home2 {
+  padding: 50px 0px;
+
+  h1 {
+    color: var(--orang);
+  }
+}
+
+.home5 {
+  background-color: #fef2e9;
+  padding: 50px 0px;
+  text-align: center;
+
+  h1 {
+    color: var(--orang);
+  }
+
+  .box {
+    background-color: var(--orang);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--white);
+  }
+
+  .link {
+    background-color: var(--white);
+    color: var(--orang);
+    width: 100%;
+    display: grid;
+    padding: 6px 0px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+}
+
+.home3 {
+  padding: 50px 0px;
+  background-color: #fef2e9;
+
+  .content {
+    border: 1px solid var(--orang);
+    padding: 10px;
+    border-radius: 5px;
+
+    h1 {
+      color: var(--orang);
+    }
+  }
+
+  .card {
+
+    .link {
+      color: var(--orang);
+      text-decoration: none;
+    }
+
+    b {
+      color: var(--orang);
+    }
+  }
+}
+
+.home4 {
+  padding: 50px 0px;
+
+  h1,
+  .link {
+    color: var(--orang);
+    text-decoration: none;
+  }
+}
+
+.footer {
+  background-color: #fef2e9;
+
+  h1 {
+    color: var(--blue);
+  }
+
+  .link {
+    color: var(--orang);
+    text-decoration: none;
+  }
+
+  .box {
+    justify-content: space-between;
+    display: flex;
+
+    .icon {
+      color: var(--white);
+      background-color: var(--orang);
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50px;
+    }
+  }
+}
+
+
+
+
+.custom-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-box {
+  background: var(--orang);
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  animation: popup 0.3s ease;
+  animation: mahnor 0.1s linear infinite alternate;
+}
+
+.modal-box p {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.modal-box button {
+  background: var(--white);
+  border: none;
+  padding: 8px 20px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@keyframes mahnor {
+  to {
+    background-color: var(--orang);
+  }
+
+  from {
+    background-color: var(--blue);
+  }
+}
+
+@keyframes popup {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.visa1 {
+  color: var(--white);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/free-photo/top-view-tourist-objects-frame-with-copy-space_23-2148786099.jpg?semt=ais_rp_progressive&w=740&q=80");
+  background-size: cover;
+  background-position: right;
+
+  .content {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    h1{
+      color: var(--orang);
+    }
+  }
+}
+
+.visa2 {
+  .box {
+    border: 1px solid var(--orang);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+    h1 {
+      color: var(--orang);
+    }
+  }
+
+  h1 {
+    color: var(--orang);
+  }
+
+  .link {
+    background-color: var(--orang);
+    padding: 6px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--white);
+  }
+}
+
+.visa3 .box {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--orang);
+}
+
+.visa3 h1 {
+  margin-top: 20px;
+  color: var(--orang);
+}
+
+.visa5 h1 {
+  color: var(--orang);
+  margin: 10px 0px;
+}
+
+.visa6 .accordion-button:not(.collapsed) {
+  background-color: var(--orang);
+  color: var(--white);
+}
+
+.Hotel {
+  color: var(--white);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("https://ik.imagekit.io/j9af7werr/hotel");
+  background-size: cover;
+
+  .content {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.hotel2 {
+  padding: 50px 0px;
+
+  h1 {
+    color: var(--orang);
+  }
+
+  .card h5 {
+    color: var(--orang);
+  }
+}
+
+.hotel3 {
+  padding: 50px 0px;
+  background-color: #fef2e9;
+}
+
+.Holidays {
+  color: var(--white);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("https://ik.imagekit.io/j9af7werr/flight?updatedAt=1773655166704");
+  background-size: cover;
+  background-position: center;
+
+  .content {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    h1{
+      color: var(--orang);
+    }
+  }
+}
+
+.holidays3 {
+  padding-top: 50px;
+
+  h1 {
+    color: var(--orang);
+  }
+
+  h2 {
+    color: var(--orang);
+  }
+
+  .btn {
+    background-color: var(--orang);
+    color: var(--white);
+  }
+}
