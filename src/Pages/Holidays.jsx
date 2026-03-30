@@ -8,8 +8,7 @@ const Holidays = () => {
                         <h1>Holidays </h1>
                         <p>Flight allows people to travel quickly between cities and countries. It saves time, provides comfort, and connects the world. Air travel makes tourism, business trips, and international visits easier and faster. ✈️</p>
                     </div>
-                </div>
-                <img src="https://ik.imagekit.io/j9af7werr/shap?updatedAt=1773473811666" className="img-fluid" />
+                </div> 
             </section>
             <section className="holidays3">
                 <div className="container">

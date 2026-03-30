@@ -10,54 +10,53 @@ const Hotel = () => {
                         <p>Hotels in Qatar offer luxury, comfort, and modern facilities for tourists and business travelers. Visitors can enjoy rooms, excellent service, beach resorts, fine dining, and convenient locations across the country. 🏨✈️</p>
                     </div>
                 </div>
-                <img src="https://ik.imagekit.io/j9af7werr/shap?updatedAt=1773473811666" className="img-fluid" />
             </section>
             <section className="hotel2">
                 <div className="container">
                     <h1 data-aos="fade-up">Most booked hotels in Qatar</h1>
                     <div className="row">
-                        <div className="col-lg-3 col-md-6 my-3 d-flex align-items-stretch" data-aos="fade-up">
-                            <div class="card">
+                        <div className="col-lg-3 col-md-6 my-2 d-flex align-items-stretch" data-aos="fade-up">
+                            <div class="card w-100">
                                 <img src="https://q-xx.bstatic.com/xdata/images/hotel/270x200/428756170.jpg?k=46dc459bab8a83e101baa1374de9b6bf6cdc869b8bea6f254f51b4a9c878734f&o=" className="img-thumbnail" />
                                 <div class="card-body">
                                     <p style={{ color: "#F48120" }}><GoStarFill /> <GoStarFill /> <GoStarFill /> <GoStarFill /></p>
-                                    <h5>Wonder Palace Hotel Qatar</h5>
+                                    <h6>Wonder Palace Hotel Qatar</h6>
                                     <p>Hotel In Doha</p>
                                     <small>Popular with guests booking hotels in Doha</small><hr />
                                     <small>Very Good 5,629 reviews</small>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 my-3 d-flex align-items-stretch" data-aos="fade-up">
-                            <div class="card">
+                        <div className="col-lg-3 col-md-6 my-2 d-flex align-items-stretch" data-aos="fade-up">
+                            <div class="card w-100">
                                 <img src="https://q-xx.bstatic.com/xdata/images/hotel/270x200/428756170.jpg?k=46dc459bab8a83e101baa1374de9b6bf6cdc869b8bea6f254f51b4a9c878734f&o=" className="img-thumbnail" />
                                 <div class="card-body">
                                     <p style={{ color: "#F48120" }}><GoStarFill /> <GoStarFill /> <GoStarFill /> <GoStarFill /></p>
-                                    <h5>The Bentley Luxury Hotel & Suites</h5>
+                                    <h6>The Bentley Luxury Hotel & Suites</h6>
                                     <p>Hotel In Doha</p>
                                     <small>Popular with guests booking hotels in Doha</small><hr />
                                     <small>Excellent · 7,820 reviews</small>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 my-3 d-flex align-items-stretch" data-aos="fade-up">
-                            <div class="card">
+                        <div className="col-lg-3 col-md-6 my-2 d-flex align-items-stretch" data-aos="fade-up">
+                            <div class="card w-100">
                                 <img src="https://q-xx.bstatic.com/xdata/images/hotel/270x200/428756170.jpg?k=46dc459bab8a83e101baa1374de9b6bf6cdc869b8bea6f254f51b4a9c878734f&o=" className="img-thumbnail" />
                                 <div class="card-body">
                                     <p style={{ color: "#F48120" }}><GoStarFill /> <GoStarFill /> <GoStarFill /> <GoStarFill /></p>
-                                    <h5>Horizon Manor Hotel</h5>
+                                    <h6>Horizon Manor Hotel</h6>
                                     <p>Hotel In Doha</p>
                                     <small>Popular with guests booking hotels in Doha</small><hr />
                                     <small>Good · 2,251 reviews</small>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 my-3 d-flex align-items-stretch" data-aos="fade-up">
-                            <div class="card">
+                        <div className="col-lg-3 col-md-6 my-2 d-flex align-items-stretch" data-aos="fade-up">
+                            <div class="card w-100">
                                 <img src="https://q-xx.bstatic.com/xdata/images/hotel/270x200/428756170.jpg?k=46dc459bab8a83e101baa1374de9b6bf6cdc869b8bea6f254f51b4a9c878734f&o=" className="img-thumbnail" />
                                 <div class="card-body">
                                     <p style={{ color: "#F48120" }}><GoStarFill /> <GoStarFill /> <GoStarFill /> <GoStarFill /></p>
-                                    <h5>Alwadi Hotel Doha - MGallery Collection</h5>
+                                    <h6>Hotel Doha - MGallery Collection</h6>
                                     <p>Hotel In Doha</p>
                                     <small>Popular with guests booking hotels in Doha</small><hr />
                                     <small>Wonderful · 4,098 reviews</small>
@@ -65,6 +64,7 @@ const Hotel = () => {
                             </div>
                         </div>
                     </div>
+                    <br />
                     <h1 data-aos="fade-up" style={{ color: "#F48120" }}>Hotels in the most popular regions in Qatar</h1>
                     <p data-aos="fade-up">Discover Qatar by exploring its top regions</p>
                     <div className="row">

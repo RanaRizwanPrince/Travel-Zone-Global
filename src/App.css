@@ -92,7 +92,7 @@ h4 {
   color: white;
   background-attachment: fixed;
   background-position: end;
-  height: 85vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   text-align: center;
@@ -115,6 +115,25 @@ h4 {
   .home1 {
     height: auto;
     padding: 50px 0px;
+  }
+
+  .Hotel {
+    .content {
+      height: auto !important;
+      padding: 50px 0px !important;
+    }
+  }
+  .visa1 {
+    .content {
+      height: auto !important;
+      padding: 50px 0px !important;
+    }
+  }
+    .Holidays {
+    .content {
+      height: auto !important;
+      padding: 50px 0px !important;
+    }
   }
 }
 
@@ -291,25 +310,28 @@ h4 {
 
 .visa1 {
   color: var(--white);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/free-photo/top-view-tourist-objects-frame-with-copy-space_23-2148786099.jpg?semt=ais_rp_progressive&w=740&q=80");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url("https://img.freepik.com/free-photo/top-view-tourist-objects-frame-with-copy-space_23-2148786099.jpg?t=st=1774863743~exp=1774867343~hmac=f9d2d879fbacd4501e04b962b83370903dfaccfd6b8e2ec5d142d6ff6bb767ed&w=1480");
   background-size: cover;
   background-position: right;
 
   .content {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    h1{
+
+    h1 {
       color: var(--orang);
     }
   }
 }
 
 .visa2 {
+  margin-top: 50px;
+
   .box {
     border: 1px solid var(--orang);
     padding: 10px;
@@ -357,12 +379,13 @@ h4 {
 
 .Hotel {
   color: var(--white);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("https://ik.imagekit.io/j9af7werr/hotel");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("https://img.freepik.com/free-photo/swimming-pool-beach-luxury-hotel-type-entertainment-complex-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18726.jpg?t=st=1774868148~exp=1774871748~hmac=f6cf068793e3b138d46a97b70236e05412ed8468c2726cb8ebdea1b5be0e836b&w=1480");
+  background-position: center;
   background-size: cover;
 
   .content {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -378,7 +401,7 @@ h4 {
     color: var(--orang);
   }
 
-  .card h5 {
+  .card h6 {
     color: var(--orang);
   }
 }
@@ -390,19 +413,20 @@ h4 {
 
 .Holidays {
   color: var(--white);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("https://ik.imagekit.io/j9af7werr/flight?updatedAt=1773655166704");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1597679389408-b6d03f1cc756?q=80&w=1087&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: center;
 
   .content {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    h1{
+
+    h1 {
       color: var(--orang);
     }
   }

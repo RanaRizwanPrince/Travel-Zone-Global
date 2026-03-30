@@ -5,11 +5,10 @@ const Visa = () => {
             <section className="visa1">
                 <div className="container">
                     <div className="content">
-                        <h1>VISA CATEGORIES</h1>
+                        <h1>Visa</h1>
                         <p>Navigating visa regulations can be complex. At Travel Zone Global, we simplify the process with a 98% approval success rate. From documentation to appointment booking, we handle the hard work while you plan your trip.</p>
                     </div>
-                </div>
-                <img src="https://ik.imagekit.io/j9af7werr/shap?updatedAt=1773473811666" className="img-fluid" />
+                </div> 
             </section>
             <section className="visa2">
                 <div className="container">
