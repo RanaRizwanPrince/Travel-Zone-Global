@@ -17,7 +17,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-3 col-md-6 my-2">
                             <img src="https://ik.imagekit.io/j9af7werr/logo?updatedAt=1772359288302" alt="LOGO" className="w-75" />
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt cupiditate, assumenda quod reprehenderit consequatur aliquam!</p>
+                            <p>Travel Zone Global is your trusted partner for unforgettable journeys worldwide. We provide reliable visa services, tour planning, and customized travel solutions.</p>
                         </div>
                         <div className="col-lg-3 col-md-6 my-2">
                             <h1>Company</h1>

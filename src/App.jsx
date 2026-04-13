@@ -17,7 +17,7 @@ function App() {
     <>
       <a target='_blank' href="https://wa.me/97430978769" className='whatsapp'><FaWhatsapp /></a>
       <MouseTrail />
-      {/* <Preloader/> */}
+      <Preloader />
       <ScrollToTopButton />
       <Navbar />
       <Routes>

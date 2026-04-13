@@ -68,20 +68,25 @@ const Hotel = () => {
                     <h1 data-aos="fade-up" style={{ color: "#F48120" }}>Hotels in the most popular regions in Qatar</h1>
                     <p data-aos="fade-up">Discover Qatar by exploring its top regions</p>
                     <div className="row">
-                        <div className="col-lg-4 col-md-4 my-3" data-aos="fade-up">
+                        <div className="col-lg-3 col-md-4 my-3" data-aos="fade-up">
                             <img src="https://q-xx.bstatic.com/xdata/images/region/270x200/51037.webp?k=f370b283f8e81b6ce18517eaca3aa6fcead62a4428533d889ed8201850b4ba80&o=" className="w-100 img-thumbnail" />
-                            <h1 style={{ color: "#F48120" }}>Al Wakrah</h1>
+                            <h4 style={{ color: "#F48120" }}>Al Wakrah</h4>
                             <small>11 hotels</small>
                         </div>
-                        <div className="col-lg-4 col-md-4 my-3" data-aos="fade-up">
+                        <div className="col-lg-3 col-md-4 my-3" data-aos="fade-up">
                             <img src="https://q-xx.bstatic.com/xdata/images/region/270x200/65920.webp?k=2ebbd6192eda8d0b421ae04ed22a6881e711a3d7d14d02efbcabae32e61f8fc7&o=" className="w-100 img-thumbnail" />
-                            <h1 style={{ color: "#F48120" }}>Al Khor</h1>
+                            <h4 style={{ color: "#F48120" }}>Al Khor</h4>
                             <small>2 hotels</small>
                         </div>
-                        <div className="col-lg-4 col-md-4 my-3" data-aos="fade-up">
+                        <div className="col-lg-3 col-md-4 my-3" data-aos="fade-up">
                             <img src="https://q-xx.bstatic.com/xdata/images/region/270x200/67075.webp?k=e2b1a835f825d5234e34f02b74eef02184da1960fbc6e50c15826a79148d6a72&o=" className="w-100 img-thumbnail" />
-                            <h1 style={{ color: "#F48120" }}>Ar Rayyan</h1>
+                            <h4 style={{ color: "#F48120" }}>Ar Rayyan</h4>
                             <small>1 hotels</small>
+                        </div>
+                        <div className="col-lg-3 col-md-4 my-3" data-aos="fade-up">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/20/52/53/raffles-doha.jpg?w=1200&h=-1&s=1" className="w-100 img-thumbnail" />
+                            <h4 style={{ color: "#F48120" }}>Lusail (Modern & Urban)</h4>
+                            <small>5 hotels</small>
                         </div>
                     </div>
                 </div>
@@ -93,22 +98,22 @@ const Hotel = () => {
                     <div className="row">
                         <div className="col-lg-3 col-md-6 my-3" data-aos="fade-up">
                             <img src="https://q-xx.bstatic.com/xdata/images/landmark/270x200/254646.webp?k=a3e536ffb9ad90b4c5617fedb0e8dfbba6fb3ab3e5881be5ae53b4b472c3d71b&o=" className="w-100 img-thumbnail" />
-                            <h3 style={{ color: "#F48120" }}>The Corniche, Doha</h3>
+                            <h5 style={{ color: "#F48120" }}>The Corniche, Doha</h5>
                             <small>40 hotels</small>
                         </div>
                         <div className="col-lg-3 col-md-6 my-3" data-aos="fade-up">
                             <img src="https://q-xx.bstatic.com/xdata/images/landmark/270x200/209142.webp?k=4900ec82443c2aca6852c750895e0291d5466657c75db0e0dea39e18a5c6bf37&o=" className="w-100 img-thumbnail" />
-                            <h3 style={{ color: "#F48120" }}>Katara Cultural Village, Doha</h3>
+                            <h5 style={{ color: "#F48120" }}>Katara Cultural Village, Doha</h5>
                             <small>40 hotels</small>
                         </div>
                         <div className="col-lg-3 col-md-6 my-3" data-aos="fade-up">
                             <img src="https://q-xx.bstatic.com/xdata/images/landmark/270x200/254630.webp?k=c3cb2688c70773fc77a752f276766aeae449fa96655e2a2fc6c23c772de173bf&o=" className="w-100 img-thumbnail" />
-                            <h3 style={{ color: "#F48120" }}>Museum of Islamic Arts, Doha</h3>
+                            <h5 style={{ color: "#F48120" }}>Museum of Islamic Arts, Doha</h5>
                             <small>40 hotels</small>
                         </div>
                         <div className="col-lg-3 col-md-6 my-3" data-aos="fade-up">
                             <img src="https://q-xx.bstatic.com/xdata/images/landmark/270x200/190143.webp?k=2236f149fbd2cf20fb5b710addd3c36d95f3763186cc54c8d2813a70865845ad&o=" className="w-100 img-thumbnail" />
-                            <h3 style={{ color: "#F48120" }}>City Center Shopping Mall, Doha</h3>
+                            <h5 style={{ color: "#F48120" }}>City Center Shopping Mall, Doha</h5>
                             <small>40 hotels</small>
                         </div>
                     </div>
